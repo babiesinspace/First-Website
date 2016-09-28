@@ -1,3 +1,58 @@
 body {
-  background-color: blue;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Indie Flower', cursive;
+}
+
+#weed-butter{
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.leaf-left{
+  background-image: url("pictures/leaf-corner.png");
+  background-size: contain;
+  background-position: bottom left;
+
+}
+
+.links{
+  display: inline-block;
+  vertical-align: text-top;
+  float: right;
+}
+
+#home{
+  padding: 3px;
+  border-right: 2px solid black; 
+}
+
+#contact{
+  padding: 3px;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+
+a:link{
+  color: purple;
+}
+
+a:visited{
+  color: green;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+      background-color: darkgreen;
+      color: white;
+    }
+    a:link{
+      color: purple;
+    }
+    a:visited{
+      color: lightblue;
+    }
 }
